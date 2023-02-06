@@ -1,7 +1,18 @@
 
+# Directories
+.vs/
+_bin/
+_bin-int/
 
 
- # bin
-bin/**
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
 
-_old_/**
+# Exclude
+!vendor/bin
+
+# Old files
+_old_/
